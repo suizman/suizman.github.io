@@ -1,0 +1,44 @@
+baseurl = "https://suizman.org"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+title = "suizman.org"
+
+[author]
+name = "Martin Evgeniev"
+github = "suizman"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  description = "Homepage and blog"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  contentTypeName = "posts"
+  defaultTheme = "light"
+
+  [params.logo]
+    logoText = "$ echo Zdravei"
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/SuizVanderplug"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/suizman"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/suizman"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
