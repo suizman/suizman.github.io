@@ -8,10 +8,6 @@ disqusShortname = "suizman"
 name = "Martin Evgeniev"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
   description = "Homepage and blog"
   keywords = "homepage, blog, science, informatics, development, programming"
   contentTypeName = "posts"
