@@ -6,5 +6,6 @@ then
     tar -zxvf hugo.tar.gz
     rm -f hugo.tar.gz
 fi
+git submodule init
 git submodule update
 ./hugo
