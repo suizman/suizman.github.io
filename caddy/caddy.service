@@ -1,0 +1,16 @@
+[Unit]
+Description=Caddy's service
+ConditionFileIsExecutable=/usr/local/bin/caddy
+
+[Service]
+User=www-data
+Group=www-data
+StartLimitInterval=10
+StartLimitBurst=10
+ExecStart=/usr/local/bin/caddy -root /var/www -https-port 443 -email $email_addr -host $base_url -agree
+
+Restart=always
+RestartSec=120
+
+[Install]
+WantedBy=multi-user.target
