@@ -2,10 +2,10 @@ baseurl = "https://suizman.org"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 title = "suizman.org"
+disqusShortname = "suizman"
 
 [author]
 name = "Martin Evgeniev"
-github = "suizman"
 
 [params]
   dateform        = "Jan 2, 2006"
