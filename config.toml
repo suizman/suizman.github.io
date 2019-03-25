@@ -4,6 +4,7 @@ theme = "hello-friend-ng"
 title = "suizman.org"
 disqusShortname = "suizman"
 
+
 [author]
 name = "Martin Evgeniev"
 
@@ -12,6 +13,7 @@ name = "Martin Evgeniev"
   keywords = "homepage, blog, science, informatics, development, programming"
   contentTypeName = "posts"
   defaultTheme = "light"
+  customCSS = ["/css/custom.css"]
 
   [params.logo]
     logoText = "$ echo Zdravei"
