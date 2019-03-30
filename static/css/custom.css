@@ -35,3 +35,11 @@
   font-weight: 700;
   font-style: italic;
 }
+
+h1{
+  font-family: hack-bold, monospace;
+}
+
+a{
+  font-family: hack-bold, monospace;
+}
