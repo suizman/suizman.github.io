@@ -17,11 +17,9 @@ jobs:
       run: |
         sudo timedatectl set-timezone Europe/Madrid
         sudo dpkg-reconfigure --frontend noninteractive tzdata
-    - name: Fetch and install hugo
+    - name: Fetch hugo and build static site
       run: |
         ./build.sh
-    - name: Build static site with hugo
-      run: hugo
     - name: Publish static site on master branch
       run: |
         cd public
