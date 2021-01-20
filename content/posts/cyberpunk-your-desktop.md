@@ -1,7 +1,7 @@
 +++
 title = "Cyberpunk your desktop"
-date = "2021-01-19T21:00:00+01:00"
-aliases = ["suizman", "terminal", "cyberpunk", "theme", "customization", "firefox", "linux", "mac"]
+date = "2021-01-19T21:23:40+01:00"
+aliases = ["suizman", "terminal", "cyberpunk", "theme", "customization", "firefox", "linux", "mac", "vim", "vscode", "kitty"]
 comments = true
 draft = false
 [ author ]
