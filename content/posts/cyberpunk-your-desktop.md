@@ -53,7 +53,7 @@ color7  #d7d7d5
 color15 #d7d7d5
 ```
 
-Save the changes, reopen the terminal and you're Kitty is ready to Mew!
+Save the changes, reopen the terminal and your Kitty is ready to Mew!
 
 ![htop](/img/cyberpunk-your-terminal/htop.png)
 
